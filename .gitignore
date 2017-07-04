@@ -21,4 +21,4 @@
 /.idea/
 
 #Dev Desktop Setting
-#/web/sites/*.dd/
+/web/sites/*.dd/
