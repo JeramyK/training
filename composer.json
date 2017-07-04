@@ -24,7 +24,9 @@
         "drupal/core": "~8.0",
         "drupal/devel": "^1.0@RC",
         "drupal/module_filter": "^3.0",
+        "drupal/paragraphs": "^1.1",
         "drupal/pathauto": "^1.0",
+        "drupal/video_embed_field": "^1.5",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },
