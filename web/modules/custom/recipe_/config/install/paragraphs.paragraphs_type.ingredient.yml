@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ingredient
+label: Ingredient
+behavior_plugins: {  }

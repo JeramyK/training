@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recipe_
+  module:
+    - text
+id: node.recipe_.body
+field_name: body
+entity_type: node
+bundle: recipe_
+label: Description
+description: 'e.g. This is great for picnics. Freezes well. Great for potluck. Etc.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

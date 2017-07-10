@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.recipe_quick_add
+label: 'Recipe Quick Add'
+targetEntityType: node
+cache: true

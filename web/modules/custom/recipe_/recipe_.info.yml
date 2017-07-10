@@ -1,0 +1,20 @@
+name: Recipe
+description: 'Provides Recipe content type and related configuration. This content type contains a complete description of your recipe'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - entity_reference_revisions
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - taxonomy
+  - text
+  - user
+  - video_embed_field
+  - views
+  - views_accordion

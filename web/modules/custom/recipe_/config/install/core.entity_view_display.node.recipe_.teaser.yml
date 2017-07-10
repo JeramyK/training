@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recipe_.body
+    - field.field.node.recipe_.field_categories
+    - field.field.node.recipe_.field_ingredients
+    - field.field.node.recipe_.field_recipe_image
+    - field.field.node.recipe_.field_recipe_preparation_video
+    - node.type.recipe_
+  module:
+    - user
+id: node.recipe_.teaser
+targetEntityType: node
+bundle: recipe_
+mode: teaser
+content:
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_categories: true
+  field_ingredients: true
+  field_recipe_image: true
+  field_recipe_preparation_video: true
