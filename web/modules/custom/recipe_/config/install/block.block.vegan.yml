@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:definition:e60012a9-748c-4b9a-b7fe-ff34229384e5'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: vegan
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:e60012a9-748c-4b9a-b7fe-ff34229384e5'
+settings:
+  id: 'block_content:e60012a9-748c-4b9a-b7fe-ff34229384e5'
+  label: Vegan
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/tags/vegan\r\n/taxonomy/term/5"
+    negate: false
+    context_mapping: {  }

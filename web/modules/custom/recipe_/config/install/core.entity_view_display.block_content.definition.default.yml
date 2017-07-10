@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.definition
+    - field.field.block_content.definition.body
+    - field.field.block_content.definition.field_definition_more_info_link
+  module:
+    - link
+    - text
+id: block_content.definition.default
+targetEntityType: block_content
+bundle: definition
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_definition_more_info_link:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

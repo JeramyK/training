@@ -4,14 +4,19 @@ type: module
 core: 8.x
 dependencies:
   - block
+  - block_content
+  - comment
   - entity_reference_revisions
   - field
   - file
   - image
+  - link
   - menu_ui
   - node
   - paragraphs
   - path
+  - pathauto
+  - rdf
   - system
   - taxonomy
   - taxonomy_menu

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:definition:21e27c4e-cbcf-4473-b675-a3b52bcba119'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: vegetarian
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:21e27c4e-cbcf-4473-b675-a3b52bcba119'
+settings:
+  id: 'block_content:21e27c4e-cbcf-4473-b675-a3b52bcba119'
+  label: Vegetarian
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/taxonomy/term/6\r\n/tags/vegetarian"
+    negate: false
+    context_mapping: {  }

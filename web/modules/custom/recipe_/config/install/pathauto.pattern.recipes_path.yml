@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: recipes_path
+label: 'Recipes Path'
+type: 'canonical_entities:node'
+pattern: 'recipes/[node:title]'
+selection_criteria:
+  afc4a2f6-042c-44cd-8e67-abea969226ec:
+    id: node_type
+    bundles:
+      recipe_: recipe_
+    negate: false
+    context_mapping:
+      node: node
+    uuid: afc4a2f6-042c-44cd-8e67-abea969226ec
+selection_logic: and
+weight: -10
+relationships: {  }
