@@ -2159,7 +2159,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/views_accordion-8.x-1.0.zip",
-                "reference": null,
+                "reference": "8.x-1.0",
                 "shasum": "04eee58a96f320ec17465d007a2d143c4ea27efc"
             },
             "require": {
