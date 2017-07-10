@@ -12,7 +12,9 @@ dependencies:
   - node
   - paragraphs
   - path
+  - system
   - taxonomy
+  - taxonomy_menu
   - text
   - user
   - video_embed_field
