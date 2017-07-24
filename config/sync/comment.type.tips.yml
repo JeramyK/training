@@ -1,0 +1,8 @@
+uuid: cd0e45fb-6911-470b-9900-e29bc81b6bdd
+langcode: en
+status: true
+dependencies: {  }
+id: tips
+label: Tips
+target_entity_type_id: taxonomy_term
+description: 'Tips, tricks, or strategies'

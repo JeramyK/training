@@ -1,0 +1,59 @@
+uuid: a5ce045c-59e5-47d2-80e3-de1203eea1c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.node.recipe_quick_add
+    - field.field.node.recipe_.body
+    - field.field.node.recipe_.field_categories
+    - field.field.node.recipe_.field_ingredients
+    - field.field.node.recipe_.field_recipe_directions
+    - field.field.node.recipe_.field_recipe_image
+    - field.field.node.recipe_.field_recipe_preparation_video
+    - node.type.recipe_
+  module:
+    - paragraphs
+    - text
+id: node.recipe_.recipe_quick_add
+targetEntityType: node
+bundle: recipe_
+mode: recipe_quick_add
+content:
+  field_ingredients:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: ingredient
+      title_plural: ingredients
+      edit_mode: preview
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: ingredient
+    third_party_settings: {  }
+    region: content
+  field_recipe_directions:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_categories: true
+  field_recipe_image: true
+  field_recipe_preparation_video: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

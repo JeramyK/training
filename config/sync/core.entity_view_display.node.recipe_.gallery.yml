@@ -1,0 +1,39 @@
+uuid: c9f14551-7d6b-4699-884d-19ed0ea41eda
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.gallery
+    - field.field.node.recipe_.body
+    - field.field.node.recipe_.field_categories
+    - field.field.node.recipe_.field_ingredients
+    - field.field.node.recipe_.field_recipe_image
+    - field.field.node.recipe_.field_recipe_preparation_video
+    - node.type.recipe_
+  module:
+    - image
+    - user
+id: node.recipe_.gallery
+targetEntityType: node
+bundle: recipe_
+mode: gallery
+content:
+  field_recipe_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_categories: true
+  field_ingredients: true
+  field_recipe_preparation_video: true

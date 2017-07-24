@@ -1,0 +1,30 @@
+uuid: 684f9d23-de99-496a-9a26-8d386cbc1e28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredients
+    - node.type.recipe_
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - entity_reference_revisions
+id: node.recipe_.field_ingredients
+field_name: field_ingredients
+entity_type: node
+bundle: recipe_
+label: Ingredients
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ingredient: ingredient
+    target_bundles_drag_drop:
+      ingredient:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

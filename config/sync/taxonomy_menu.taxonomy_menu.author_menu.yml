@@ -1,0 +1,14 @@
+uuid: 7aaf7157-39ff-4b62-8aa8-804a471771d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.custom-menu
+    - taxonomy.vocabulary.author
+id: author_menu
+label: 'Author Menu'
+vocabulary: author
+menu: custom-menu
+expanded: false
+depth: 0
+menu_parent: 'custom-menu:views_view:views.taxonomy_authors.page_1'

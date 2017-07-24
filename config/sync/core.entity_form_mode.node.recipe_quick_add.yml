@@ -1,0 +1,10 @@
+uuid: f7d4b4f5-4f3d-48bf-add8-b50906643180
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.recipe_quick_add
+label: 'Recipe Quick Add'
+targetEntityType: node
+cache: true

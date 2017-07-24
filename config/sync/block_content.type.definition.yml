@@ -1,0 +1,8 @@
+uuid: afa4675e-94c1-45af-a0ca-eb7d40d84e44
+langcode: en
+status: true
+dependencies: {  }
+id: definition
+label: Definition
+revision: 0
+description: 'Defining Terms'

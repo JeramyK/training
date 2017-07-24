@@ -1,0 +1,33 @@
+uuid: 213ef2b2-749a-4390-8cce-618d0ac42973
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipes_by_author
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__recipes_by_author_block_1
+theme: bartik
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_block:recipes_by_author-block_1'
+settings:
+  id: 'views_block:recipes_by_author-block_1'
+  label: 'More recipes by this author'
+  provider: views
+  label_display: visible
+  views_label: 'More recipes by this author'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      recipe_: recipe_
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

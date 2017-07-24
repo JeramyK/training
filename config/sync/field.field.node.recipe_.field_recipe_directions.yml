@@ -1,0 +1,21 @@
+uuid: 64bbb436-fe5e-4dbb-9a9e-d3f08b1e9d8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recipe_directions
+    - node.type.recipe_
+  module:
+    - text
+id: node.recipe_.field_recipe_directions
+field_name: field_recipe_directions
+entity_type: node
+bundle: recipe_
+label: Directions
+description: 'Provide the step-by-step directions to prepare the recipe.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

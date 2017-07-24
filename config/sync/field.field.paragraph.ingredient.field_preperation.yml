@@ -1,0 +1,19 @@
+uuid: ca956bf4-1d58-4659-aaf0-a0a2d86479c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_preperation
+    - paragraphs.paragraphs_type.ingredient
+id: paragraph.ingredient.field_preperation
+field_name: field_preperation
+entity_type: paragraph
+bundle: ingredient
+label: Preperation
+description: 'e.g. Minced, Chopped, or Strained'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

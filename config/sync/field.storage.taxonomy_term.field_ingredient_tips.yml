@@ -1,0 +1,20 @@
+uuid: 51709892-5055-4eea-9ea4-f87188c549ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - taxonomy
+id: taxonomy_term.field_ingredient_tips
+field_name: field_ingredient_tips
+entity_type: taxonomy_term
+type: comment
+settings:
+  comment_type: tips
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

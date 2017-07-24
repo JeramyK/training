@@ -1,0 +1,25 @@
+uuid: a552b13d-5c94-4505-a9c8-76c6279dec5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.tips
+    - field.field.comment.tips.comment_body
+  module:
+    - text
+id: comment.tips.default
+targetEntityType: comment
+bundle: tips
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

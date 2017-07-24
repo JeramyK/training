@@ -1,0 +1,23 @@
+uuid: 7bd0e6ce-1df4-47d9-9633-dafad5fa6df7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.definition
+    - field.storage.block_content.field_definition_more_info_link
+  module:
+    - link
+id: block_content.definition.field_definition_more_info_link
+field_name: field_definition_more_info_link
+entity_type: block_content
+bundle: definition
+label: 'More Information Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

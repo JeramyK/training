@@ -1,0 +1,18 @@
+uuid: e2b30f28-19fd-4298-8fb1-94ae8dffeb4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - custom-menu
+    parent: 'custom-menu:menu_link_content:8f0bfcc4-d409-4515-9057-cc56a0fc208c'
+name: Recipe
+type: recipe_
+description: 'This content type contains a complete description of your recipe'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

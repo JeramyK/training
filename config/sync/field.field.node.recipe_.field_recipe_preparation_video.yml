@@ -1,0 +1,25 @@
+uuid: 904e1ff9-6e58-4600-9772-55f696c97676
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_recipe_preparation_video
+    - node.type.recipe_
+  module:
+    - video_embed_field
+id: node.recipe_.field_recipe_preparation_video
+field_name: field_recipe_preparation_video
+entity_type: node
+bundle: recipe_
+label: 'Preparation Video'
+description: 'Optionally provide a preparation video'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

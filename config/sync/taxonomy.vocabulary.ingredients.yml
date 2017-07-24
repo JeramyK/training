@@ -1,0 +1,9 @@
+uuid: d0aa2a0a-8dd1-4a7a-ac5d-a42cce6c17a3
+langcode: en
+status: true
+dependencies: {  }
+name: Ingredients
+vid: ingredients
+description: 'Recipe Ingredients'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,31 @@
+uuid: 1e8b1bff-b39c-4d0d-b1d2-a5f481d658db
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:definition:c4636590-ff52-4970-a1f5-4a816b8eb98b'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: kosher
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'block_content:c4636590-ff52-4970-a1f5-4a816b8eb98b'
+settings:
+  id: 'block_content:c4636590-ff52-4970-a1f5-4a816b8eb98b'
+  label: Kosher
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/tags/kosher\r\n/taxonomy/term/9"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,56 @@
+uuid: 2efb1d22-0612-4d79-b9ea-c4014d1db3df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.ingredients.field_image
+    - field.field.taxonomy_term.ingredients.field_ingredient_tips
+    - image.style.thumbnail
+    - taxonomy.vocabulary.ingredients
+  module:
+    - comment
+    - image
+    - path
+    - text
+id: taxonomy_term.ingredients.default
+targetEntityType: taxonomy_term
+bundle: ingredients
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ingredient_tips:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

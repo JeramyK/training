@@ -1,0 +1,7 @@
+uuid: 1717c343-a4fa-487c-b38b-4f2c2432c4b6
+langcode: en
+status: true
+dependencies: {  }
+id: ingredient
+label: Ingredient
+behavior_plugins: {  }
