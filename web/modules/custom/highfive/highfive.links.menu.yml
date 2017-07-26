@@ -6,7 +6,7 @@ highfive.demo:
   description: 'Watch and learn how to high five'
   parent: custom-menu
   route_name: highfive_demo_route
-  menu_name: custom-menu
+  menu_name: main
   weight: 50
 
 # TODO: Task 1) Create 'highfive.about' link with route_name to 'highfive_about_route'
@@ -15,5 +15,5 @@ highfive.about:
   description: 'What is a High Five'
   parent: custom-menu
   route_name: highfive_about_route
-  menu_name: custom-menu
+  menu_name: main
   weight: 51

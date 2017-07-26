@@ -3,4 +3,4 @@ mymodule.newpage:
   description: 'Link to the page mymodule created'
   route_name: mymodule.content
   weight: 10
-  menu_name: custom-menu
+  menu_name: main

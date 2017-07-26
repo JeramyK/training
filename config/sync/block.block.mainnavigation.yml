@@ -1,0 +1,24 @@
+uuid: e943703b-28a1-4a9d-b3bf-2774df9534d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bartik
+id: mainnavigation
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Class Exercises'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

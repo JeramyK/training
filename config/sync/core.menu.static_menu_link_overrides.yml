@@ -5,5 +5,17 @@ definitions:
     parent: ''
     weight: 0
     expanded: false
+  standard__front_page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    expanded: false
+    weight: 0
+  highfive__about:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
