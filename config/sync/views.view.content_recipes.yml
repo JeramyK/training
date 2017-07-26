@@ -403,7 +403,7 @@ display:
         type: normal
         title: Recipes
         menu_name: custom-menu
-        weight: -49
+        weight: -48
       fields:
         title:
           id: title
