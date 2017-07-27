@@ -46,7 +46,7 @@ class HighFiveBasicForm extends FormBase {
     // Checkbox
     $form['icecream_flavor'] = [
       '#type' => 'checkboxes',
-      '#options' => ['Vanilla' => t('Vanilla'), 'Chocolate' => t('Chocolate'), 'Strawberry' => t('Strawberry')],
+      '#options' => ['Chocolate' => t('Chocolate'), 'Vanilla' => t('Vanilla'), 'Strawberry' => t('Strawberry')],
       '#title' => $this->t('What is your favorite flavor of ice cream?'),
       '#description' => 'Checkboxes, Choose only one.',
       '#required' => TRUE,
@@ -118,13 +118,16 @@ class HighFiveBasicForm extends FormBase {
       $form_state->setErrorByName('email', $this->t('zelda@freemoney.com cannot submit this form.'));
     }
     $favorites = 0;
-    foreach ($form_state->getValue('icecream_flavor') as $value){
+    foreach ($form_state->getValue('icecream_flavor') as $key => $value){
       if ($value){
         $favorites++;
+        if ($favorites > 1) {
+          $form_state->setErrorByName('icecream_flavor', $this->t('You really can only have one *favorite*. Please select only one.'));
+        }
+        if ($key != 'Chocolate') {
+          $form_state->setErrorByName('icecream_flavor', $this->t('It appears you have mis-clicked. Please correctly select Chocolate as your favorite ice cream.'));
+        }
       }
-    }
-    if ($favorites > 1) {
-      $form_state->setErrorByName('icecream_flavor', $this->t('You really can only have one *favorite*. You selected'.$favorites));
     }
   }
 
