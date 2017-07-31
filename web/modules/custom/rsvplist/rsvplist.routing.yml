@@ -1,4 +1,4 @@
-rsvplist.form:
+rsvplist.form_route:
   path: '/rsvplist'
   defaults:
     _form: '\Drupal\rsvplist\Form\RsvpForm'

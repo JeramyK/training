@@ -42,7 +42,7 @@ class RsvpForm extends FormBase
       '#type' => 'hidden',
       '#value' => $nid,
     );
-    dpm($form);
+    //dpm($form);
     return $form;
   }
   /**

@@ -4,7 +4,7 @@
 highfive.demo:
   title: 'High Five Demo'
   description: 'Watch and learn how to high five'
-  parent: custom-menu
+  parent: main
   route_name: highfive_demo_route
   menu_name: main
   weight: 50
@@ -13,7 +13,24 @@ highfive.demo:
 highfive.about:
   title: 'High Five Definition'
   description: 'What is a High Five'
-  parent: custom-menu
+  parent: main
   route_name: highfive_about_route
   menu_name: main
   weight: 51
+
+highfive.give:
+  title: 'Give a High Five'
+  description: 'Give a High Five between Foo and Bar'
+  parent: main
+  route_name: highfive_give_highfives
+  route_parameters: { first: 'foo', second: 'bar' }
+  menu_name: main
+  weight: 52
+
+highfive.form:
+  title: 'High Five Request Form'
+  description: 'The High Five Request Form'
+  parent: main
+  route_name: highfive_awesome_form
+  menu_name: main
+  weight: 53

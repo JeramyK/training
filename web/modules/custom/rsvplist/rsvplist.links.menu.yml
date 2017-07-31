@@ -1,0 +1,10 @@
+# This file adds menu links
+# See https://www.drupal.org/docs/8/api/menu-api/providing-module-defined-menu-links
+#
+rsvplist.form_menu:
+  title: 'RSVP Form'
+  description: 'Access the RSVP Form'
+  parent: main
+  route_name: rsvplist.form_route
+  menu_name: main
+  weight: 100
