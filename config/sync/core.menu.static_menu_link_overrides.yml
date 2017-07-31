@@ -12,19 +12,37 @@ definitions:
     expanded: false
     enabled: false
   highfive__about:
-    weight: -49
+    weight: -48
     menu_name: main
     parent: ''
-    enabled: true
     expanded: false
+    enabled: true
   mymodule__newpage:
-    weight: -46
+    weight: -50
     menu_name: main
     parent: ''
     expanded: false
     enabled: true
   highfive__demo:
-    weight: -50
+    weight: -49
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
+  highfive__give:
+    weight: -46
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  highfive__form:
+    weight: -45
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  rsvplist__form_menu:
+    weight: -44
     menu_name: main
     parent: ''
     expanded: false

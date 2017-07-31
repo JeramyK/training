@@ -1,0 +1,26 @@
+uuid: 7595687b-c444-43c1-a99a-98b56df1af9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - highfive
+    - system
+  theme:
+    - bartik
+id: highfiveblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: high_five_block
+settings:
+  id: high_five_block
+  label: 'High Five block'
+  provider: highfive
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/highfive\r\n/highfive-awesome-form"
+    negate: false
+    context_mapping: {  }
